@@ -53,4 +53,5 @@ def geometric(a, ratio, n):
        A geometric sequence is of the form: a, a*r, a*r*r, a*r*r*r,...
        n is the number of elements in the sequence.'''
     #Use the sum formula:
+    #This function is made by Bob
     return a*(1-ratio**n)/(1-ratio)

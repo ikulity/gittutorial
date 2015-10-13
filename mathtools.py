@@ -1,5 +1,5 @@
 
-
+#New try
 def isPrime(n):
     '''Returns true if a number n is a prime number'''
     if n == 2 or n == 3:

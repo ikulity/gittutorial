@@ -24,3 +24,10 @@ def arithmetic(a, difference, n):
     sequence = [a+difference*x for x in range(n)]
     #Calculates its sum
     return sum(sequence)
+def arithmetic2(a, difference, n):
+    '''Calculates the sum of a arithmetic serie of n elements.
+       An arithmetic sequence is of the form: a, a+d, a+2d, a+3d,...
+       n is the number of elements in the sequence.'''
+
+    #Use the sum formula:
+    return n/2*(2*a+(n-1)*difference)
